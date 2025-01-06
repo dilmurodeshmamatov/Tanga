@@ -15,4 +15,5 @@ def share_or_steal(list1: list[str], list2: list[str]) -> list[int]:
 
 ls1 = input("User1 ni kiriting: (steal or share) ").split(",")
 ls2 = input("User2 ni kiriting: (steal or share) ").split(",")
+
 print(share_or_steal(ls1, ls2))
